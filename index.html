@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AnchorWithin Complete Toolkit — All 6 AI Tools for $19.99</title>
+<meta name="description" content="Get all 6 AnchorWithin AI tools in one bundle. Resume Optimizer, Tax Companion, 432Hz Generator, Side Hustle Planner, AI Companion, and The Anchor Remembers — $19.99 vs $22.96 individually.">
+<style>
+  :root {
+    --navy:   #08101E;
+    --bronze: #C8A84B;
+    --cream:  #EDE7DA;
+    --dark2:  #0d1828;
+    --card:   #111d2e;
+    --muted:  #7a8fa6;
+    --green:  #22c55e;
+    --red:    #ef4444;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--navy);
+    color: var(--cream);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  a { color: var(--bronze); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* ── Header ── */
+  header {
+    text-align: center;
+    padding: 60px 20px 40px;
+    border-bottom: 1px solid rgba(200,168,75,.15);
+  }
+  .badge {
+    display: inline-block;
+    background: rgba(200,168,75,.12);
+    border: 1px solid rgba(200,168,75,.35);
+    color: var(--bronze);
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  header h1 {
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 800;
+    letter-spacing: -.02em;
+    margin-bottom: 16px;
+    line-height: 1.2;
+  }
+  header h1 span { color: var(--bronze); }
+  header p.tagline {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+
+  /* ── Pricing pill ── */
+  .price-compare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+  }
+  .price-was {
+    font-size: 1.1rem;
+    color: var(--muted);
+    text-decoration: line-through;
+  }
+  .price-now {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: var(--bronze);
+    letter-spacing: -.03em;
+  }
+  .price-save {
+    background: rgba(34,197,94,.15);
+    border: 1px solid rgba(34,197,94,.3);
+    color: var(--green);
+    font-size: .85rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  /* ── CTA button ── */
+  .cta-wrap { text-align: center; margin-bottom: 12px; }
+  .cta-btn {
+    display: inline-block;
+    background: var(--bronze);
+    color: var(--navy);
+    font-size: 1.15rem;
+    font-weight: 800;
+    padding: 16px 44px;
+    border-radius: 8px;
+    letter-spacing: .02em;
+    transition: opacity .15s;
+    cursor: pointer;
+  }
+  .cta-btn:hover { opacity: .88; text-decoration: none; }
+  .cta-sub {
+    color: var(--muted);
+    font-size: .82rem;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  /* ── Section titles ── */
+  section { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+  .section-label {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--bronze);
+    margin-bottom: 8px;
+  }
+  h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 28px;
+    letter-spacing: -.02em;
+  }
+
+  /* ── Tool cards ── */
+  .tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin-bottom: 56px;
+  }
+  .tool-card {
+    background: var(--card);
+    border: 1px solid rgba(200,168,75,.15);
+    border-radius: 12px;
+    padding: 22px;
+    position: relative;
+    transition: border-color .2s;
+  }
+  .tool-card:hover { border-color: rgba(200,168,75,.4); }
+  .tool-icon {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .tool-card h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--cream);
+  }
+  .tool-card p {
+    font-size: .875rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  .tool-price {
+    font-size: .8rem;
+    color: var(--muted);
+  }
+  .tool-price s { color: var(--red); }
+  .tool-price b { color: var(--green); margin-left: 6px; }
+  .tool-link {
+    font-size: .78rem;
+    color: var(--bronze);
+    margin-top: 6px;
+    display: block;
+  }
+
+  /* ── Value table ── */
+  .value-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 48px;
+    font-size: .9rem;
+  }
+  .value-table th {
+    text-align: left;
+    padding: 10px 14px;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--bronze);
+    border-bottom: 1px solid rgba(200,168,75,.2);
+  }
+  .value-table td {
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    color: var(--muted);
+  }
+  .value-table td:first-child { color: var(--cream); font-weight: 600; }
+  .value-table tr.total-row td {
+    color: var(--cream);
+    font-weight: 700;
+    border-top: 1px solid rgba(200,168,75,.3);
+    border-bottom: none;
+  }
+  .value-table tr.bundle-row td {
+    color: var(--bronze);
+    font-weight: 800;
+    font-size: 1.05rem;
+  }
+  .value-table tr.bundle-row td:last-child { color: var(--green); }
+
+  /* ── Trust signals ── */
+  .trust-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 48px 0;
+    padding: 28px 20px;
+    background: var(--dark2);
+    border-radius: 12px;
+  }
+  .trust-item {
+    text-align: center;
+    min-width: 110px;
+  }
+  .trust-item .icon { font-size: 1.6rem; margin-bottom: 6px; }
+  .trust-item .label { font-size: .78rem; color: var(--muted); line-height: 1.4; }
+  .trust-item .label b { color: var(--cream); display: block; }
+
+  /* ── FAQ ── */
+  .faq-item { margin-bottom: 22px; }
+  .faq-q {
+    font-weight: 700;
+    color: var(--cream);
+    margin-bottom: 6px;
+    font-size: .95rem;
+  }
+  .faq-a { color: var(--muted); font-size: .88rem; }
+
+  /* ── Footer CTA ── */
+  .footer-cta {
+    text-align: center;
+    padding: 60px 20px;
+    border-top: 1px solid rgba(200,168,75,.12);
+    margin-top: 60px;
+  }
+  .footer-cta h2 { margin-bottom: 10px; }
+  .footer-cta p { color: var(--muted); margin-bottom: 28px; }
+
+  footer {
+    text-align: center;
+    padding: 24px 20px;
+    color: var(--muted);
+    font-size: .78rem;
+    border-top: 1px solid rgba(255,255,255,.05);
+  }
+</style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="badge">Limited Bundle Offer</div>
+  <h1>All 6 AI Tools.<br><span>One Low Price.</span></h1>
+  <p class="tagline">
+    Build your career, manage your money, find your next income stream, and quiet your mind —
+    with a complete suite of AI tools designed to work while you sleep.
+  </p>
+
+  <div class="price-compare">
+    <span class="price-was">$22.96 separately</span>
+    <span class="price-now">$19.99</span>
+    <span class="price-save">Save $2.97</span>
+  </div>
+
+  <div class="cta-wrap">
+    <a class="cta-btn" href="https://buy.stripe.com/00wbJ2d5A7mv5obc6S67S0d" target="_blank">
+      Get the Complete Toolkit →
+    </a>
+  </div>
+  <p class="cta-sub">One-time payment · Instant access · No subscription</p>
+</header>
+
+<!-- ── TOOLS GRID ── -->
+<section style="padding-top:56px;">
+  <p class="section-label">What's Included</p>
+  <h2>6 Tools That Work Together</h2>
+
+  <div class="tools-grid">
+    <div class="tool-card">
+      <div class="tool-icon">📝</div>
+      <h3>AI Resume Optimizer</h3>
+      <p>Score your resume against any job description. Identify missing keywords. AI-rewrite your bullet points to match the employer's language. Beat ATS filters.</p>
+      <div class="tool-price"><s>$4.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/resume-optimizer/" target="_blank">Try free version →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-icon">🧾</div>
+      <h3>AI Tax Companion</h3>
+      <p>Year-round tax tracking for freelancers. 19 deduction categories. Home office, equipment, retirement, health insurance — finds what you're missing.</p>
+      <div class="tool-price"><s>$4.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/tax-deduction-calculator/" target="_blank">Try free version →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-icon">🎵</div>
+      <h3>432 Hz Resonance Generator</h3>
+      <p>Real-time 432Hz audio synthesis with particle visuals, 24 affirmations, and guided sessions. Custom text + 30-second video export in premium.</p>
+      <div class="tool-price"><s>$2.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/resonance-generator/" target="_blank">Try free version →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-icon">💡</div>
+      <h3>AI Side Hustle Planner</h3>
+      <p>Answer 5 questions. Get a personalized 30-day action plan for 1 of 18 hustle types. Roadmaps, checklists, and outreach templates included.</p>
+      <div class="tool-price"><s>$2.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/side-hustle-planner/" target="_blank">Try free version →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-icon">🤖</div>
+      <h3>AI Companion</h3>
+      <p>A chat companion with 3 personalities, full conversation memory, and follow-up questions. 4 built-in games. 432Hz ambient toggle.</p>
+      <div class="tool-price"><s>$2.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/ai-companion/" target="_blank">Try free version →</a>
+    </div>
+
+    <div class="tool-card">
+      <div class="tool-icon">⚓</div>
+      <h3>The Anchor Remembers</h3>
+      <p>25 guided questions for preserving what matters. Memory chat, export to PDF, 432Hz comfort audio. Thoughtfully designed for legacy and reflection.</p>
+      <div class="tool-price"><s>$4.99</s><b>Included</b></div>
+      <a class="tool-link" href="https://ackcreate.github.io/anchor-remembers/" target="_blank">Try free version →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── VALUE TABLE ── -->
+<section>
+  <p class="section-label">Value Breakdown</p>
+  <h2>What You're Getting</h2>
+  <table class="value-table">
+    <thead>
+      <tr>
+        <th>Tool</th>
+        <th>Category</th>
+        <th>Individual Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>AI Resume Optimizer</td><td>Career</td><td>$4.99</td></tr>
+      <tr><td>AI Tax Companion</td><td>Finance</td><td>$4.99</td></tr>
+      <tr><td>432 Hz Resonance Generator</td><td>Wellness</td><td>$2.99</td></tr>
+      <tr><td>AI Side Hustle Planner</td><td>Income</td><td>$2.99</td></tr>
+      <tr><td>AI Companion</td><td>Productivity</td><td>$2.99</td></tr>
+      <tr><td>The Anchor Remembers</td><td>Personal</td><td>$4.99</td></tr>
+      <tr class="total-row"><td>Total (individual)</td><td></td><td>$22.96</td></tr>
+      <tr class="bundle-row"><td>Complete Toolkit Bundle</td><td></td><td>$19.99</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- ── TRUST SIGNALS ── -->
+<section>
+  <div class="trust-row">
+    <div class="trust-item">
+      <div class="icon">🔒</div>
+      <div class="label"><b>Secure Checkout</b>Powered by Stripe</div>
+    </div>
+    <div class="trust-item">
+      <div class="icon">⚡</div>
+      <div class="label"><b>Instant Access</b>Unlock immediately</div>
+    </div>
+    <div class="trust-item">
+      <div class="icon">🌐</div>
+      <div class="label"><b>Browser-Based</b>Nothing to install</div>
+    </div>
+    <div class="trust-item">
+      <div class="icon">🔁</div>
+      <div class="label"><b>One-Time Payment</b>No subscription</div>
+    </div>
+    <div class="trust-item">
+      <div class="icon">🔐</div>
+      <div class="label"><b>Private by Design</b>Nothing stored server-side</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section style="margin-bottom:48px;">
+  <p class="section-label">Questions</p>
+  <h2>FAQ</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">What do I get access to after purchase?</div>
+    <div class="faq-a">All 6 premium tools with their full feature sets unlocked. You'll receive access links immediately after checkout.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Are these browser-based or do I need to install anything?</div>
+    <div class="faq-a">Completely browser-based. No installs, no apps, no accounts required. Works on any device with a modern browser.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is my data stored anywhere?</div>
+    <div class="faq-a">No. All processing happens in your browser. Nothing is sent to a server. Your resume, finances, and conversations stay on your device.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Is this a subscription?</div>
+    <div class="faq-a">No. One payment of $19.99 and you keep access to all 6 tools. No renewals, no monthly fees.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Can I try the tools before buying?</div>
+    <div class="faq-a">Yes — all 6 tools have free versions available. The bundle unlocks the premium features in each one.</div>
+  </div>
+</section>
+
+<!-- ── FOOTER CTA ── -->
+<div class="footer-cta">
+  <p class="section-label">Ready?</p>
+  <h2>Build the system.<br>Let it work.</h2>
+  <p>Get all 6 tools for $19.99 — one payment, no subscription, instant access.</p>
+  <div class="cta-wrap">
+    <a class="cta-btn" href="https://buy.stripe.com/00wbJ2d5A7mv5obc6S67S0d" target="_blank">
+      Get the Complete Toolkit →
+    </a>
+  </div>
+  <p class="cta-sub" style="margin-top:10px;">$22.96 individual · $19.99 bundle · Save $2.97</p>
+</div>
+
+<footer>
+  &copy; 2026 AnchorWithin LLC · Built by machines, owned by you ·
+  <a href="https://anchorwithin.gumroad.com" target="_blank">Gumroad Store</a>
+</footer>
+
+</body>
+</html>
