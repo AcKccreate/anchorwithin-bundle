@@ -1,0 +1,11 @@
+# Required
+# (config.py uses only stdlib — no hard dependencies)
+
+# Optional: for Twitter posting
+tweepy>=4.14
+
+# Optional: for Reddit posting
+praw>=7.7
+
+# Optional: for Stripe revenue checks (uses urllib, but stripe lib is nicer)
+# stripe>=7.0

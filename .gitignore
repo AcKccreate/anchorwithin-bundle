@@ -1,0 +1,12 @@
+# Environment / secrets
+.env
+*.env
+
+# Logs and state
+logs/
+marketing/logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
