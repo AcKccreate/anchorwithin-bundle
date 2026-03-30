@@ -179,20 +179,66 @@ def mix_all(voiceover_path, music_path, ambient_path, output_path):
     print(f"  ✓ Mixed audio saved: {output_path}")
 
 
+# ── 5. Video Mux ──────────────────────────────────────────────────────────
+def mux_video(video_path, audio_path, output_path):
+    """Strip existing audio from video and replace with mixed audio."""
+    import subprocess
+    import shutil
+
+    if not os.path.isfile(video_path):
+        print(f"\n[SKIP] Video muxing — source video not found: {video_path}")
+        print("  Copy your video to that path and re-run, or run manually:")
+        print(f'  ffmpeg -y -i "{video_path}" -i "{audio_path}" '
+              f'-map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest '
+              f'"{output_path}"')
+        return False
+
+    ffmpeg_bin = shutil.which("ffmpeg")
+    if not ffmpeg_bin:
+        print("[ERROR] ffmpeg not found. Install it and re-run.")
+        return False
+
+    print("[5/5] Muxing video + audio...")
+    subprocess.run([
+        ffmpeg_bin, "-y",
+        "-i", video_path,
+        "-i", audio_path,
+        "-map", "0:v",
+        "-map", "1:a",
+        "-c:v", "copy",
+        "-c:a", "aac",
+        "-b:a", "192k",
+        "-shortest",
+        output_path,
+    ], check=True)
+    print(f"  ✓ Final video saved: {output_path}")
+    return True
+
+
 # ── Main ───────────────────────────────────────────────────────────────────
 async def main():
+    import sys
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     vo_path = os.path.join(OUTPUT_DIR, "ep01_voiceover.mp3")
     ambient_path = os.path.join(OUTPUT_DIR, "ep01_ambient.mp3")
     music_path = os.path.join(OUTPUT_DIR, "ep01_music.mp3")
     mixed_path = os.path.join(OUTPUT_DIR, "ep01_mixed_audio.mp3")
+    video_out = os.path.join(OUTPUT_DIR, "akira_ep01_WATCH_THIS.mp4")
 
-    # Generate all assets
+    # Accept source video path as CLI argument, or use default
+    default_video = os.path.join(OUTPUT_DIR, "akira_ep01_video.mp4")
+    video_src = sys.argv[1] if len(sys.argv) > 1 else default_video
+
+    # Generate all audio assets
     await generate_voiceover(vo_path)
     generate_ambient(ambient_path)
     generate_music(music_path)
     mix_all(vo_path, music_path, ambient_path, mixed_path)
+
+    # Mux video + audio
+    mux_video(video_src, mixed_path, video_out)
 
     # Report
     print("\n" + "=" * 60)
@@ -208,11 +254,24 @@ async def main():
         print(f"  {label:12s} → {os.path.basename(path):30s} "
               f"duration={seg.duration_seconds:.1f}s")
 
-    print("\n[SKIP] Video muxing — no source video on this system.")
-    print("  Run this on your Windows machine to combine:")
-    print(f'  ffmpeg -y -i akira_ep01_video.mp4 -i ep01_mixed_audio.mp3 '
-          f'-map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest '
-          f'akira_ep01_the_node_COMPLETE.mp4')
+    if os.path.isfile(video_out):
+        # Get video duration via ffprobe
+        import subprocess
+        result = subprocess.run(
+            ["ffprobe", "-v", "error", "-show_entries",
+             "format=duration", "-of", "csv=p=0", video_out],
+            capture_output=True, text=True
+        )
+        dur = float(result.stdout.strip()) if result.stdout.strip() else 0
+        size_mb = os.path.getsize(video_out) / (1024 * 1024)
+        print(f"  {'FINAL VIDEO':12s} → {os.path.basename(video_out):30s} "
+              f"duration={dur:.1f}s  size={size_mb:.1f}MB")
+    else:
+        print(f"\n  To produce the final video on Windows, run:")
+        print(f'  ffmpeg -y -i "C:\\Users\\acase\\Downloads\\akira_ep01_the_node_FINAL.mp4" ^')
+        print(f'    -i ep01_mixed_audio.mp3 ^')
+        print(f'    -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest ^')
+        print(f'    akira_ep01_WATCH_THIS.mp4')
 
 
 if __name__ == "__main__":
