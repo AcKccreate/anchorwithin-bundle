@@ -1,0 +1,21 @@
+# Environment secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# Freqtrade runtime data
+user_data/config.json
+user_data/tradesv3.sqlite
+user_data/backtest_results/
+user_data/logs/
+user_data/data/
+user_data/plot/
+user_data/notebooks/
