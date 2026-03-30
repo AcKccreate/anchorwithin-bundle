@@ -1,0 +1,13 @@
+# Video Factory — Git Ignore
+.env
+*.mp4
+*.mp3
+*.wav
+output/*/
+ready_to_upload/
+logs/*.log
+logs/production_log.json
+__pycache__/
+*.pyc
+youtube_token.json
+client_secret*.json

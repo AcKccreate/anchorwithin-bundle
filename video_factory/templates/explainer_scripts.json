@@ -1,0 +1,82 @@
+[
+  {
+    "id": "exp_ai_app",
+    "title": "How I Built a $10K/Month App Using AI in 15 Minutes (Copy Me)",
+    "description": "Learn how to build a profitable AI-powered app from scratch using free tools. No coding experience required. This step-by-step guide shows you exactly how to go from zero to $10K/month.\n\n⏱️ Timestamps:\n0:00 - The Opportunity\n2:00 - Finding Your Niche\n4:00 - Building with AI\n7:00 - Launching and Marketing\n10:00 - Scaling to $10K\n\n#AIMoney #SideHustle #PassiveIncome #AIBusiness",
+    "tags": ["AI business", "side hustle", "passive income", "make money online", "AI app", "entrepreneurship"],
+    "slides": [
+      {"title": "The $10K/Month AI App Blueprint", "bullets": ["No coding required", "Free tools only", "Step-by-step system"]},
+      {"title": "Step 1: Find a Painful Problem", "bullets": ["Browse Reddit for complaints", "Look at 1-star app reviews", "Target boring industries (they pay more)"]},
+      {"title": "Step 2: Build with AI Tools", "bullets": ["Use Claude or ChatGPT for logic", "Replit or Cursor for code generation", "Ship an MVP in one weekend"]},
+      {"title": "Step 3: The Free Launch Strategy", "bullets": ["Post on Product Hunt (free)", "Reddit threads in niche subs", "Create 3 YouTube demos"]},
+      {"title": "Step 4: Monetize Smart", "bullets": ["Freemium model: free tier + $9/month pro", "Stripe for payments (2 min setup)", "Email list from day one"]},
+      {"title": "Step 5: Scale to $10K", "bullets": ["SEO blog posts (AI-written)", "Affiliate program for users", "Raise prices as you grow"]},
+      {"title": "Real Numbers Breakdown", "bullets": ["1,111 paying users at $9/month = $10K", "Or 200 users at $49/month", "Or 40 users at $249/month"]},
+      {"title": "Start Today", "bullets": ["Pick ONE problem to solve", "Build your MVP this weekend", "Launch next Monday — no excuses"]}
+    ]
+  },
+  {
+    "id": "exp_ai_income",
+    "title": "5 AI Side Hustles That Pay $200/Day (Nobody Talks About These)",
+    "description": "Discover 5 overlooked AI-powered side hustles that are generating $200+ per day for regular people. These aren't the same tired suggestions — these are real opportunities most people are sleeping on.\n\n#AISideHustle #MakeMoneyOnline #PassiveIncome #AITools",
+    "tags": ["AI side hustle", "make money online", "passive income", "AI tools", "work from home"],
+    "slides": [
+      {"title": "5 AI Side Hustles Paying $200/Day", "bullets": ["Not the same old advice", "Real people, real income", "You can start today"]},
+      {"title": "#1: AI-Powered Resume Service", "bullets": ["Charge $49-149 per resume", "AI does 80% of the work", "LinkedIn + Fiverr for clients"]},
+      {"title": "#2: Automated Newsletter Business", "bullets": ["AI writes the content daily", "Monetize with sponsorships", "1,000 subscribers = $500/issue"]},
+      {"title": "#3: AI Video Clip Service", "bullets": ["Turn long videos into viral clips", "Charge $100-300 per video", "Tools: Opus Clip, Descript"]},
+      {"title": "#4: Custom GPT Marketplace", "bullets": ["Build specialized AI assistants", "Sell access at $19-99/month", "Target specific industries"]},
+      {"title": "#5: AI Content Agency", "bullets": ["Offer AI-enhanced writing", "Charge agency rates ($2K+/month)", "Use AI for speed, humans for quality"]},
+      {"title": "The Common Thread", "bullets": ["Use AI as leverage, not replacement", "Sell the outcome, not the tool", "Start with ONE hustle and master it"]},
+      {"title": "Your Action Plan", "bullets": ["Pick the hustle that excites you", "Set up in 48 hours", "Get your first client this week"]}
+    ]
+  },
+  {
+    "id": "exp_ai_tools",
+    "title": "7 Free AI Tools That Replaced My $500/Month Software Stack",
+    "description": "I was paying $500/month for premium software until I discovered these free AI-powered alternatives. Each tool is 100% free and does the job just as well (sometimes better).\n\n#FreeAITools #SaveMoney #AIProductivity #TechTips",
+    "tags": ["free AI tools", "AI productivity", "save money", "tech tips", "AI alternatives"],
+    "slides": [
+      {"title": "Replace $500/Month in Software", "bullets": ["7 free AI alternatives", "Same quality, zero cost", "I tested all of them"]},
+      {"title": "#1: Replace Grammarly Premium ($30/mo)", "bullets": ["Use: LanguageTool + Claude", "Better suggestions, free forever", "Works in any text field"]},
+      {"title": "#2: Replace Canva Pro ($15/mo)", "bullets": ["Use: Microsoft Designer (free)", "AI-generated designs", "Professional templates included"]},
+      {"title": "#3: Replace Jasper AI ($49/mo)", "bullets": ["Use: Claude.ai free tier + prompts", "Better output with good prompts", "No word limits on free tier"]},
+      {"title": "#4: Replace Notion AI ($10/mo)", "bullets": ["Use: Obsidian + local AI plugins", "Your data stays private", "More powerful than Notion AI"]},
+      {"title": "#5: Replace Loom Pro ($15/mo)", "bullets": ["Use: OBS Studio + AI captions", "Better quality recordings", "Unlimited storage on YouTube"]},
+      {"title": "#6: Replace Calendly Pro ($12/mo)", "bullets": ["Use: Cal.com (free + open source)", "Same features, zero cost", "Custom branding included"]},
+      {"title": "Total Saved: $6,000/Year", "bullets": ["Every tool tested for 30 days", "Links in the description", "Subscribe for more free alternatives"]}
+    ]
+  },
+  {
+    "id": "exp_passive",
+    "title": "I Built 5 Passive Income Streams with AI — Here's How Each One Earns",
+    "description": "A transparent breakdown of my 5 AI-powered passive income streams, how much each earns, and exactly how to build them yourself. Real numbers, no hype.\n\n#PassiveIncome #AIBusiness #IncomeStreams #FinancialFreedom",
+    "tags": ["passive income", "AI business", "income streams", "financial freedom", "make money with AI"],
+    "slides": [
+      {"title": "5 AI Passive Income Streams", "bullets": ["Real numbers, no hype", "Total: $8,400/month", "How to build each one"]},
+      {"title": "Stream #1: AI Tool Suite ($2,100/mo)", "bullets": ["6 simple AI-powered web tools", "One-time build, recurring revenue", "Stripe payments, no overhead"]},
+      {"title": "Stream #2: YouTube Automation ($1,800/mo)", "bullets": ["Faceless AI-generated content", "4 videos per week (automated)", "AdSense + affiliate revenue"]},
+      {"title": "Stream #3: Digital Products ($1,500/mo)", "bullets": ["AI-written guides and templates", "Gumroad + Stripe storefront", "Zero marginal cost per sale"]},
+      {"title": "Stream #4: Newsletter Sponsorships ($1,200/mo)", "bullets": ["AI writes 80% of content", "5,000 subscribers", "2 sponsors per week at $150 each"]},
+      {"title": "Stream #5: Affiliate Content ($1,800/mo)", "bullets": ["AI-generated comparison articles", "SEO-optimized blog posts", "Amazon + SaaS affiliates"]},
+      {"title": "The Compounding Effect", "bullets": ["Month 1: $0 (building)", "Month 3: $1,200", "Month 6: $4,500", "Month 12: $8,400+"]},
+      {"title": "Start With One Stream", "bullets": ["Pick the easiest for YOUR skills", "Commit 90 days minimum", "Reinvest early profits into scaling"]}
+    ]
+  },
+  {
+    "id": "exp_chatgpt_money",
+    "title": "How to Use ChatGPT to Make $100/Day (Beginner-Friendly Method)",
+    "description": "A complete beginner's guide to making $100/day using ChatGPT and free AI tools. No experience needed — just follow the steps.\n\n#ChatGPTMoney #AIIncome #BeginnerFriendly #OnlineIncome",
+    "tags": ["ChatGPT money", "AI income", "beginner friendly", "online income", "side hustle"],
+    "slides": [
+      {"title": "Make $100/Day with ChatGPT", "bullets": ["Beginner-friendly method", "No experience needed", "Start earning this week"]},
+      {"title": "The Method: AI Content Services", "bullets": ["Businesses need content daily", "They'll pay $50-200 per piece", "ChatGPT does the heavy lifting"]},
+      {"title": "Step 1: Pick Your Service", "bullets": ["Blog posts ($75-150 each)", "Social media captions ($25-50/batch)", "Email sequences ($100-300 each)"]},
+      {"title": "Step 2: Create Your Offer", "bullets": ["Simple one-page website (Carrd.co)", "3 portfolio samples (AI-generated)", "Clear pricing and turnaround time"]},
+      {"title": "Step 3: Find Clients", "bullets": ["Upwork: bid on writing gigs", "LinkedIn: DM small business owners", "Facebook groups: offer free samples"]},
+      {"title": "Step 4: Deliver with AI + Human Touch", "bullets": ["ChatGPT for first draft (5 min)", "You edit and polish (15 min)", "Client gets quality work fast"]},
+      {"title": "Scaling to $100/Day", "bullets": ["2 blog posts at $75 = $150/day", "Or 4 social batches at $30 = $120/day", "Consistency beats perfection"]},
+      {"title": "Pro Tips", "bullets": ["Build a swipe file of best prompts", "Specialize in one industry", "Raise prices every 10 clients"]}
+    ]
+  }
+]
