@@ -1,0 +1,12 @@
+{
+  "series": "signal_below",
+  "episode": 1,
+  "title": "The Frequency That Dissolves Pain",
+  "voiceover_text": "There is a sound beneath the sound. 174 Hertz. You won't hear it with your ears. You'll feel it in your chest. In the spaces between your ribs where you've been holding something too long. Let it dissolve. You don't need it anymore. The anchor holds.",
+  "voice": "en-US-JennyNeural",
+  "rate": "-15%",
+  "pitch": "-5Hz",
+  "drone_freq": 174,
+  "ambient_type": "ocean",
+  "duration": 48
+}

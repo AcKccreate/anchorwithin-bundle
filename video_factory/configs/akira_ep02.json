@@ -1,0 +1,12 @@
+{
+  "series": "akira",
+  "episode": 2,
+  "title": "The Signal Spreads",
+  "voiceover_text": "The signal doesn't ask permission. It moves through walls, through skin, through silence. 285 Hertz. The frequency of cellular repair. The Explorer tried to contain it. But you cannot cage what was never yours. In Sector 4, the broken things are listening. And they remember how to heal. The anchor holds.",
+  "voice": "en-US-JennyNeural",
+  "rate": "-15%",
+  "pitch": "-5Hz",
+  "drone_freq": 285,
+  "ambient_type": "rain",
+  "duration": 48
+}
