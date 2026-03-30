@@ -91,6 +91,62 @@ def generate_thumbnail(title: str, subtitle: str, output_path: str,
         title_color = (255, 255, 255)
         glow_color = ac
 
+    elif style == "binaural":
+        # Dark with wave motif and stereo circles
+        for y in range(height):
+            ratio = y / height
+            r = int(8 + 12 * ratio)
+            g = int(5 + 15 * (1 - ratio))
+            b = int(30 + 45 * ratio)
+            draw.line([(0, y), (width, y)], fill=(r, g, b))
+        # Stereo circles
+        ac = accent_color or (80, 180, 120)
+        draw.ellipse([200, height // 2 - 80, 360, height // 2 + 80], outline=ac, width=2)
+        draw.ellipse([width - 360, height // 2 - 80, width - 200, height // 2 + 80], outline=ac, width=2)
+        title_font = _get_font(120, bold=True)
+        sub_font = _get_font(32)
+        title_color = (220, 240, 230)
+        glow_color = ac
+
+    elif style == "ambient":
+        # Ultra-dark, minimal
+        for y in range(height):
+            draw.line([(0, y), (width, y)], fill=(8, 8, 14))
+        title_font = _get_font(72, bold=True)
+        sub_font = _get_font(28)
+        title_color = (180, 180, 190)
+        glow_color = accent_color or (60, 60, 80)
+
+    elif style == "sleep":
+        # Near-black with subtle moon dots
+        for y in range(height):
+            draw.line([(0, y), (width, y)], fill=(6, 6, 18))
+        import random
+        rng = random.Random(77)
+        for _ in range(30):
+            x, y_dot = rng.randint(0, width), rng.randint(0, height)
+            b = rng.randint(30, 60)
+            draw.ellipse([x - 1, y_dot - 1, x + 1, y_dot + 1], fill=(b, b, b + 10))
+        # Moon circle
+        draw.ellipse([width - 200, 40, width - 80, 160], fill=(40, 38, 55))
+        title_font = _get_font(64, bold=True)
+        sub_font = _get_font(28)
+        title_color = (200, 195, 220)
+        glow_color = accent_color or (80, 70, 120)
+
+    elif style == "growth":
+        # Navy to bronze gradient
+        for y in range(height):
+            ratio = y / height
+            r = int(8 + 192 * ratio)
+            g = int(16 + 152 * ratio)
+            b = int(30 + 45 * ratio)
+            draw.line([(0, y), (width, y)], fill=(r, g, b))
+        title_font = _get_font(72, bold=True)
+        sub_font = _get_font(32)
+        title_color = (255, 255, 255)
+        glow_color = accent_color or (200, 168, 75)
+
     else:
         for y in range(height):
             draw.line([(0, y), (width, y)], fill=(20, 20, 30))

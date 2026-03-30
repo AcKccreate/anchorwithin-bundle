@@ -1,0 +1,82 @@
+[
+  {
+    "id": "binaural_alpha_10",
+    "base_freq": 200,
+    "beat_freq": 10,
+    "beat_type": "alpha",
+    "duration_secs": 7200,
+    "title": "10Hz Alpha — Deep Focus & Concentration | 2 Hours Binaural Beats",
+    "description": "Enhance your focus and concentration with this 10Hz Alpha binaural beat session. Alpha brainwaves (8-12Hz) are associated with a relaxed yet alert mental state — perfect for studying, creative work, and deep focus.\n\nLeft ear: 200Hz | Right ear: 210Hz | Perceived beat: 10Hz Alpha\n\nAlpha waves bridge the gap between conscious thinking and the subconscious mind. They promote calm focus, reduce stress, and enhance learning retention.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 2 Hours\n🔊 432Hz undertone embedded\n\n#AlphaWaves #BinauralBeats #Focus #Concentration #StudyMusic #DeepFocus",
+    "tags": ["alpha waves", "binaural beats", "focus", "concentration", "study music", "10Hz", "deep focus", "432Hz", "brain entrainment"]
+  },
+  {
+    "id": "binaural_theta_4",
+    "base_freq": 150,
+    "beat_freq": 4,
+    "beat_type": "theta",
+    "duration_secs": 3600,
+    "title": "4Hz Theta — Deep Meditation & Creativity | 1 Hour Binaural Beats",
+    "description": "Enter deep meditation with this 4Hz Theta binaural beat session. Theta brainwaves (4-8Hz) are the gateway to creativity, intuition, and deep meditative states.\n\nLeft ear: 150Hz | Right ear: 154Hz | Perceived beat: 4Hz Theta\n\nTheta waves are present during deep meditation, REM sleep, and moments of creative insight. They help access the subconscious mind and enhance visualization.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 1 Hour\n🔊 432Hz undertone embedded\n\n#ThetaWaves #BinauralBeats #Meditation #Creativity #DeepMeditation",
+    "tags": ["theta waves", "binaural beats", "meditation", "creativity", "4Hz", "deep meditation", "432Hz", "intuition", "subconscious"]
+  },
+  {
+    "id": "binaural_delta_2",
+    "base_freq": 100,
+    "beat_freq": 2,
+    "beat_type": "delta",
+    "duration_secs": 10800,
+    "title": "2Hz Delta — Deep Sleep & Recovery | 3 Hours Binaural Beats",
+    "description": "Fall into the deepest, most restorative sleep with this 2Hz Delta binaural beat session. Delta brainwaves (0.5-4Hz) are the slowest brain waves and are dominant during dreamless deep sleep.\n\nLeft ear: 100Hz | Right ear: 102Hz | Perceived beat: 2Hz Delta\n\nDelta waves promote healing, cell regeneration, and the release of human growth hormone. This is the brain state where the body performs its deepest physical repair.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 3 Hours\n🔊 432Hz undertone embedded\n\n#DeltaWaves #BinauralBeats #DeepSleep #Recovery #SleepMusic #HealingSleep",
+    "tags": ["delta waves", "binaural beats", "deep sleep", "recovery", "2Hz", "sleep music", "432Hz", "healing sleep", "insomnia"]
+  },
+  {
+    "id": "binaural_gamma_40",
+    "base_freq": 300,
+    "beat_freq": 40,
+    "beat_type": "gamma",
+    "duration_secs": 3600,
+    "title": "40Hz Gamma — Peak Performance & Memory | 1 Hour Binaural Beats",
+    "description": "Activate peak mental performance with this 40Hz Gamma binaural beat session. Gamma brainwaves (30-100Hz) are the fastest brain waves and are associated with higher cognitive functions.\n\nLeft ear: 300Hz | Right ear: 340Hz | Perceived beat: 40Hz Gamma\n\n40Hz Gamma waves are linked to enhanced memory, heightened perception, and peak concentration. Research suggests 40Hz stimulation may support brain health and cognitive clarity.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 1 Hour\n🔊 432Hz undertone embedded\n\n#GammaWaves #BinauralBeats #PeakPerformance #Memory #CognitiveEnhancement",
+    "tags": ["gamma waves", "binaural beats", "peak performance", "memory", "40Hz", "cognitive enhancement", "432Hz", "brain health", "focus"]
+  },
+  {
+    "id": "binaural_theta_6",
+    "base_freq": 180,
+    "beat_freq": 6,
+    "beat_type": "theta",
+    "duration_secs": 7200,
+    "title": "6Hz Theta — Lucid Dreaming & Visualization | 2 Hours Binaural Beats",
+    "description": "Explore the realm of lucid dreaming and vivid visualization with this 6Hz Theta binaural beat session. This frequency sits in the sweet spot of the Theta range for dream-state awareness.\n\nLeft ear: 180Hz | Right ear: 186Hz | Perceived beat: 6Hz Theta\n\nAt 6Hz, the brain enters a twilight state between waking and sleeping — ideal for lucid dreaming practice, guided visualization, and accessing deep creative flow.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 2 Hours\n🔊 432Hz undertone embedded\n\n#ThetaWaves #LucidDreaming #BinauralBeats #Visualization #DreamState",
+    "tags": ["theta waves", "binaural beats", "lucid dreaming", "visualization", "6Hz", "dream state", "432Hz", "creative flow", "meditation"]
+  },
+  {
+    "id": "binaural_alpha_8",
+    "base_freq": 220,
+    "beat_freq": 8,
+    "beat_type": "alpha",
+    "duration_secs": 3600,
+    "title": "8Hz Alpha — Calm Relaxation & Stress Relief | 1 Hour Binaural Beats",
+    "description": "Melt away stress with this 8Hz Alpha binaural beat session. Resting at the boundary between Alpha and Theta, 8Hz promotes deep relaxation while maintaining gentle awareness.\n\nLeft ear: 220Hz | Right ear: 228Hz | Perceived beat: 8Hz Alpha\n\n8Hz is sometimes called the Schumann resonance crossover point. It induces a profoundly calm, peaceful mental state perfect for unwinding after a long day.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 1 Hour\n🔊 432Hz undertone embedded\n\n#AlphaWaves #BinauralBeats #Relaxation #StressRelief #CalmMusic",
+    "tags": ["alpha waves", "binaural beats", "relaxation", "stress relief", "8Hz", "calm music", "432Hz", "anxiety relief", "peaceful"]
+  },
+  {
+    "id": "binaural_delta_1",
+    "base_freq": 120,
+    "beat_freq": 1,
+    "beat_type": "delta",
+    "duration_secs": 28800,
+    "title": "1Hz Delta — Full Night Deep Sleep | 8 Hours Binaural Beats",
+    "description": "Sleep through the entire night with this 1Hz Delta binaural beat session. At 1Hz, this is among the deepest Delta frequencies — designed for uninterrupted, dreamless, restorative sleep.\n\nLeft ear: 120Hz | Right ear: 121Hz | Perceived beat: 1Hz Delta\n\nThis ultra-low frequency encourages the deepest stages of NREM sleep where the body performs critical repair, memory consolidation, and immune system strengthening.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 8 Hours (full night)\n🔊 432Hz undertone embedded\n\n#DeltaWaves #BinauralBeats #FullNightSleep #DeepSleep #8Hours #SleepAllNight",
+    "tags": ["delta waves", "binaural beats", "full night sleep", "deep sleep", "1Hz", "8 hours", "432Hz", "insomnia relief", "NREM sleep"]
+  },
+  {
+    "id": "binaural_beta_18",
+    "base_freq": 250,
+    "beat_freq": 18,
+    "beat_type": "beta",
+    "duration_secs": 3600,
+    "title": "18Hz Beta — Energy & Alertness | 1 Hour Binaural Beats",
+    "description": "Boost your energy and mental alertness with this 18Hz Beta binaural beat session. Beta brainwaves (12-30Hz) are dominant during active, analytical thinking and engagement.\n\nLeft ear: 250Hz | Right ear: 268Hz | Perceived beat: 18Hz Beta\n\n18Hz Beta promotes focused attention, problem-solving ability, and mental stamina. Ideal for work sessions, exercise motivation, or whenever you need a natural mental energy boost.\n\n🎧 HEADPHONES REQUIRED for binaural effect\n⏱️ Duration: 1 Hour\n🔊 432Hz undertone embedded\n\n#BetaWaves #BinauralBeats #Energy #Alertness #Productivity #MentalStamina",
+    "tags": ["beta waves", "binaural beats", "energy", "alertness", "18Hz", "productivity", "432Hz", "mental stamina", "work music"]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "id": "gcc_quit_for_ai",
+    "topic": "Should You Quit Your Job for AI?",
+    "title": "Should You Quit Your Job for AI? | The Global Council",
+    "description": "The Global Council debates whether you should leave your stable career to chase opportunities in artificial intelligence.\n\n#CareerAdvice #AI #QuitYourJob #GlobalCouncil #Shorts",
+    "tags": ["career advice", "AI careers", "quit your job", "Global Council", "debate"],
+    "segments": [
+      {"character": "Mia", "text": "Quitting a stable job for AI is reckless. Most people don't understand the technology well enough to compete with those who've been in it for years."},
+      {"character": "Sora", "text": "But waiting means falling behind. AI is moving faster than any industry shift we've ever seen. The window to transition is now, not in five years."},
+      {"character": "Julian", "text": "You don't have to quit to start. Build AI skills on the side. Ship a project. Get traction. Then make the leap with evidence, not hope."},
+      {"character": "Hoshi", "text": "I quit my marketing job six months ago to go all in on AI automation. I'm already making more than my old salary. The risk was worth it."},
+      {"character": "Mateo", "text": "Survivorship bias. For every Hoshi, there are a hundred people who quit and burned through savings. The smart move is strategic, not impulsive."}
+    ]
+  },
+  {
+    "id": "gcc_college_worthless",
+    "topic": "Is a College Degree Worthless Now?",
+    "title": "Is a College Degree Worthless in 2026? | The Global Council",
+    "description": "The Global Council examines whether traditional degrees still matter in the age of AI and self-taught skills.\n\n#College #Education #CareerAdvice #GlobalCouncil #Shorts",
+    "tags": ["college degree", "education", "career advice", "Global Council", "debate"],
+    "segments": [
+      {"character": "Hoshi", "text": "I've interviewed hundreds of candidates. The best ones taught themselves online. The degree told me nothing about their actual ability."},
+      {"character": "Julian", "text": "That works for tech. But try becoming a doctor, a lawyer, or an engineer without a degree. Credentials matter in regulated fields."},
+      {"character": "Mia", "text": "The degree isn't worthless. The debt is the problem. If college were free, nobody would be having this conversation."},
+      {"character": "Mateo", "text": "Google, Apple, and Tesla all dropped degree requirements. When the biggest companies stop caring, the signal is clear."},
+      {"character": "Sora", "text": "College gives you a network, not just knowledge. The people you meet at twenty-two open doors at thirty-five. You can't replicate that on YouTube."}
+    ]
+  },
+  {
+    "id": "gcc_learn_to_code",
+    "topic": "Should You Learn to Code in 2026?",
+    "title": "Should You Learn to Code in 2026? | The Global Council",
+    "description": "With AI writing code now, is learning to program still worth the investment of time and effort?\n\n#LearnToCode #Programming #AI #GlobalCouncil #Shorts",
+    "tags": ["learn to code", "programming", "AI coding", "career advice", "Global Council"],
+    "segments": [
+      {"character": "Sora", "text": "AI writes code now. Learning syntax is like learning to shoe horses in the age of cars. Learn to direct AI instead."},
+      {"character": "Mateo", "text": "Hard disagree. Understanding code means understanding logic. AI is a tool, not a replacement for thinking. The best prompt engineers are coders."},
+      {"character": "Mia", "text": "The question isn't code or no code. It's what kind of code. Low-level programming is dying. Systems thinking and architecture are thriving."},
+      {"character": "Hoshi", "text": "I learned Python in three months and automated my entire department's reporting. That skill alone got me promoted twice."},
+      {"character": "Julian", "text": "Learn enough to be dangerous. You don't need to be a software engineer. You need to speak the language well enough to build and evaluate AI solutions."}
+    ]
+  },
+  {
+    "id": "gcc_remote_forever",
+    "topic": "Is Remote Work Dying?",
+    "title": "Is Remote Work Already Dying? | The Global Council",
+    "description": "Return-to-office mandates are sweeping the industry. The Global Council debates whether remote work can survive.\n\n#RemoteWork #ReturnToOffice #CareerAdvice #GlobalCouncil #Shorts",
+    "tags": ["remote work", "return to office", "career advice", "future of work", "Global Council"],
+    "segments": [
+      {"character": "Julian", "text": "Amazon, Google, Goldman Sachs. All demanding people back in the office. The remote experiment is over for most big companies."},
+      {"character": "Hoshi", "text": "Big companies, yes. But startups and mid-size firms are doubling down on remote. Talent goes where the flexibility is."},
+      {"character": "Mia", "text": "Remote work isn't dying. It's stratifying. Senior people with leverage get flexibility. Everyone else gets a commute and a cubicle."},
+      {"character": "Sora", "text": "The data is clear. Remote workers are more productive. Return to office is about control and real estate justification, not results."},
+      {"character": "Mateo", "text": "Both sides are right. Hybrid is the future. Fully remote and fully in-office will both become niche positions within five years."}
+    ]
+  },
+  {
+    "id": "gcc_ai_manager",
+    "topic": "Would You Work for an AI Manager?",
+    "title": "Would You Work for an AI Boss? | The Global Council",
+    "description": "AI is already making hiring and firing decisions. The Global Council debates AI management.\n\n#AIManager #FutureOfWork #Management #GlobalCouncil #Shorts",
+    "tags": ["AI manager", "future of work", "management", "automation", "Global Council"],
+    "segments": [
+      {"character": "Mateo", "text": "AI managers already exist. Amazon's warehouse system fires people automatically based on productivity metrics. We just don't call it a manager."},
+      {"character": "Mia", "text": "That's exactly the problem. An AI manager optimizes for metrics, not for humans. It can't read the room or understand context."},
+      {"character": "Sora", "text": "But human managers are biased. They play favorites. They promote people who look like them. At least an AI evaluates everyone by the same standard."},
+      {"character": "Julian", "text": "The same standard can be the wrong standard. If the metric is flawed, the AI enforces the flaw at scale. That's worse than bias."},
+      {"character": "Hoshi", "text": "The best setup is AI handling scheduling, performance data, and logistics while a human handles coaching, empathy, and career growth. Hybrid management."}
+    ]
+  },
+  {
+    "id": "gcc_career_switch",
+    "topic": "Is It Too Late to Switch Careers at 40?",
+    "title": "Career Switch at 40: Too Late? | The Global Council",
+    "description": "The Global Council debates whether mid-career pivots are still viable or just wishful thinking.\n\n#CareerChange #MidCareer #Reinvention #GlobalCouncil #Shorts",
+    "tags": ["career change", "mid-career", "reinvention", "age", "Global Council"],
+    "segments": [
+      {"character": "Hoshi", "text": "I switched from finance to UX design at forty-two. It took eighteen months of learning, but I'm happier and earning more than ever."},
+      {"character": "Mateo", "text": "At forty, you have twenty-five working years left. That's longer than most people's first career. It's not too late. It's halftime."},
+      {"character": "Julian", "text": "The challenge isn't ability. It's financial obligations. Mortgages, kids, retirement savings. A career switch at forty requires a financial runway."},
+      {"character": "Mia", "text": "The biggest barrier is identity. People define themselves by their job title. Letting go of that is harder than learning new skills."},
+      {"character": "Sora", "text": "AI just lowered the switching cost dramatically. Skills that took years to learn can now be augmented in months. The barriers are falling."}
+    ]
+  },
+  {
+    "id": "gcc_personal_brand",
+    "topic": "Do You Need a Personal Brand?",
+    "title": "Do You Actually Need a Personal Brand? | The Global Council",
+    "description": "Everyone says 'build your brand.' The Global Council questions whether personal branding is essential or overblown.\n\n#PersonalBrand #CareerAdvice #LinkedIn #GlobalCouncil #Shorts",
+    "tags": ["personal brand", "career advice", "LinkedIn", "social media", "Global Council"],
+    "segments": [
+      {"character": "Sora", "text": "In 2026, your online presence IS your resume. If a recruiter can't find you, you don't exist. Personal brand isn't optional anymore."},
+      {"character": "Julian", "text": "Some of the most successful people I know have zero social media presence. They let their work speak. Personal brand is a vanity project for most."},
+      {"character": "Mia", "text": "It depends on your field. Creators and consultants need it. Engineers and accountants? Your GitHub repo or CPA license matters more than your LinkedIn posts."},
+      {"character": "Hoshi", "text": "Personal brand isn't about being an influencer. It's about being findable and credible. Even a basic LinkedIn profile with clear results counts."},
+      {"character": "Mateo", "text": "The people who shout loudest about personal branding are selling personal branding courses. There's a conflict of interest nobody talks about."}
+    ]
+  },
+  {
+    "id": "gcc_negotiate_salary",
+    "topic": "Should You Always Negotiate Your Salary?",
+    "title": "Never Accept the First Offer? | The Global Council",
+    "description": "The Global Council debates whether salary negotiation is always the right move or if it can backfire.\n\n#SalaryNegotiation #CareerAdvice #Hiring #GlobalCouncil #Shorts",
+    "tags": ["salary negotiation", "career advice", "hiring", "compensation", "Global Council"],
+    "segments": [
+      {"character": "Mateo", "text": "Always negotiate. Companies expect it. The first offer is never the best offer. Leaving money on the table is leaving years of compounding behind."},
+      {"character": "Mia", "text": "Unless you're in a market with no leverage. If there are five hundred applicants for your role, pushing back can get your offer rescinded."},
+      {"character": "Julian", "text": "The key isn't whether to negotiate. It's how. Data-driven negotiation works. Emotional negotiation backfires. Come with market comps, not feelings."},
+      {"character": "Sora", "text": "Women and minorities are penalized for negotiating in ways white men aren't. Telling everyone to 'just negotiate' ignores systemic bias."},
+      {"character": "Hoshi", "text": "I've hired hundreds of people. The ones who negotiated respectfully with data? I respected them more. It showed confidence and preparation."}
+    ]
+  }
+]

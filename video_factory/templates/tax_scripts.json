@@ -1,0 +1,131 @@
+[
+  {
+    "id": "tax_missed_deductions",
+    "title": "7 Tax Deductions You're Missing (Stop Overpaying the IRS)",
+    "description": "Most taxpayers overpay because they miss these common deductions. Here are 7 you can claim right now to keep more of your money.\n\n⏱️ Timestamps:\n0:00 - Why You're Overpaying\n1:30 - Deduction #1\n3:00 - Deduction #2\n4:30 - Deduction #3\n6:00 - Deduction #4\n7:30 - Deduction #5\n9:00 - Deduction #6\n10:00 - Deduction #7\n\n#TaxDeductions #SaveMoney #TaxTips #PersonalFinance",
+    "tags": ["tax deductions", "save money", "tax tips", "personal finance", "IRS"],
+    "slides": [
+      {"title": "7 Deductions Most People Miss", "bullets": ["The average taxpayer overpays by $1,200", "These are 100% legal deductions", "You can amend past returns too"]},
+      {"title": "#1: State Sales Tax vs Income Tax", "bullets": ["You can deduct EITHER state income tax or sales tax", "If you live in a no-income-tax state, claim sales tax", "IRS has a calculator to estimate your sales tax paid", "Can add big purchases like cars on top"]},
+      {"title": "#2: Student Loan Interest", "bullets": ["Deduct up to $2,500 even with standard deduction", "Applies even if parents pay (if you're the borrower)", "Income phase-out starts at $75K single", "Check Form 1098-E from your loan servicer"]},
+      {"title": "#3: Charitable Contributions Beyond Cash", "bullets": ["Donated clothes, furniture, or electronics count", "Mileage driven for charity: 14 cents per mile", "Out-of-pocket costs for volunteer work", "Keep receipts and photos for everything"]},
+      {"title": "#4: Educator Expenses", "bullets": ["Teachers can deduct $300 above the line", "Classroom supplies, books, software", "No itemizing required", "Both spouses can claim if both teach"]},
+      {"title": "#5: Moving Expenses for Military", "bullets": ["Active duty military with permanent station change", "Deduct travel, lodging, and shipping costs", "Use Form 3903 to claim", "One of the last moving deductions still available"]},
+      {"title": "#6: Energy Efficiency Credits", "bullets": ["Solar panels: 30% credit with no cap", "Heat pumps, insulation, windows qualify", "Credits are better than deductions (dollar for dollar)", "Can carry unused credits forward"]},
+      {"title": "#7: Investment Losses (Tax-Loss Harvesting)", "bullets": ["Offset capital gains with losses", "Deduct up to $3,000 in net losses against income", "Carry forward unused losses indefinitely", "Review your portfolio before December 31"]}
+    ]
+  },
+  {
+    "id": "tax_zero_tax",
+    "title": "How to Legally Pay $0 in Federal Taxes (Step-by-Step Strategy)",
+    "description": "A legal, step-by-step walkthrough of how some Americans legally pay zero federal income tax. Every strategy here is IRS-compliant.\n\n#ZeroTax #TaxStrategy #LegalTaxTips #FinancialFreedom",
+    "tags": ["zero tax", "tax strategy", "legal tax tips", "financial freedom", "tax planning"],
+    "slides": [
+      {"title": "The $0 Tax Strategy Explained", "bullets": ["This is 100% legal", "Uses IRS-approved deductions and credits", "Works best under $100K income", "Higher earners can still reduce dramatically"]},
+      {"title": "Layer 1: Max Your Standard Deduction", "bullets": ["$15,700 single / $31,400 married (2026)", "This alone zeroes out low incomes", "If you earn under the standard deduction, you owe nothing", "Additional deduction if over 65 or blind"]},
+      {"title": "Layer 2: Pre-Tax Retirement Contributions", "bullets": ["401(k): up to $23,500 reduces taxable income", "Traditional IRA: up to $7,000 more", "$100K income minus $30,500 = $69,500 taxable", "Employer match is free money on top"]},
+      {"title": "Layer 3: HSA Contributions", "bullets": ["$4,300 single / $8,550 family (2026 limits)", "Triple tax advantage: deduction, growth, withdrawal", "Must have high-deductible plan", "Can invest HSA funds for long-term growth"]},
+      {"title": "Layer 4: Tax Credits", "bullets": ["Child Tax Credit: up to $2,000 per child", "Earned Income Tax Credit: up to $7,830", "Saver's Credit: up to $1,000 for retirement savings", "Credits reduce tax owed dollar-for-dollar"]},
+      {"title": "Example: Family of Four, $95K Income", "bullets": ["Standard deduction: -$31,400", "401(k) contributions: -$23,500", "HSA contribution: -$8,550", "Taxable income: $31,550 -> tax ~$3,500"]},
+      {"title": "Wiping Out the Remaining Tax", "bullets": ["Child Tax Credit (2 kids): -$4,000", "$3,500 tax minus $4,000 credits = $0 owed", "Possibly a refund depending on other credits", "Every layer stacks on top of the last"]},
+      {"title": "Your Action Steps", "bullets": ["Calculate your current taxable income", "Identify which layers you're missing", "Maximize retirement and HSA contributions", "Consult a CPA for your specific situation"]}
+    ]
+  },
+  {
+    "id": "tax_freelancer",
+    "title": "The Complete Freelancer Tax Guide (Save Thousands Every Year)",
+    "description": "Freelancers overpay on taxes more than anyone. This guide covers everything from quarterly estimates to deductions you didn't know existed.\n\n#FreelancerTax #SelfEmployed #TaxGuide #1099Taxes",
+    "tags": ["freelancer tax", "self-employed", "1099", "tax guide", "deductions"],
+    "slides": [
+      {"title": "Freelancer Taxes: The Complete Guide", "bullets": ["Self-employment tax is 15.3% on top of income tax", "But dozens of deductions offset this", "Proper planning saves $5K-$15K per year"]},
+      {"title": "Your Tax Obligations as a Freelancer", "bullets": ["Income tax on net profit", "Self-employment tax (Social Security + Medicare)", "Quarterly estimated payments required", "Penalties for underpayment can add up fast"]},
+      {"title": "The Most Overlooked Freelancer Deductions", "bullets": ["Internet and phone (business percentage)", "Software subscriptions and tools", "Professional development and courses", "Business meals (50% deductible)"]},
+      {"title": "Equipment and Depreciation", "bullets": ["Section 179: deduct full cost in year one", "Computers, cameras, furniture all qualify", "Must be used more than 50% for business", "Keep a usage log for mixed-use items"]},
+      {"title": "Retirement Accounts for Freelancers", "bullets": ["SEP-IRA: contribute up to 25% of net income", "Solo 401(k): up to $69,000 total per year", "Reduces both income tax and effective SE tax", "Open an account before Dec 31, fund by tax day"]},
+      {"title": "S-Corp Election Strategy", "bullets": ["Saves 15.3% SE tax on a portion of income", "Best when net profit exceeds $60K", "Pay yourself a reasonable salary", "Rest comes as distributions (no SE tax)"]},
+      {"title": "Record-Keeping That Saves You", "bullets": ["Separate business bank account is essential", "Use accounting software (Wave is free)", "Save receipts digitally with date and purpose", "Mileage tracking apps for driving deductions"]},
+      {"title": "Your Freelancer Tax Checklist", "bullets": ["Set aside 25-30% of every payment", "Make quarterly estimated payments on time", "Track every business expense religiously", "Review deductions with a CPA annually"]}
+    ]
+  },
+  {
+    "id": "tax_side_hustle",
+    "title": "Side Hustle Taxes Explained: What You Owe and How to Pay Less",
+    "description": "Making money on the side? Here's exactly what you owe in taxes and smart strategies to minimize your bill legally.\n\n#SideHustleTax #TaxTips #ExtraIncome #SmallBusiness",
+    "tags": ["side hustle tax", "extra income", "tax tips", "small business", "gig economy"],
+    "slides": [
+      {"title": "Side Hustle Income Is Taxable", "bullets": ["Any income over $400 triggers self-employment tax", "Platforms report via 1099-K at $600+", "Unreported income is the #1 audit trigger", "But deductions can legally slash your bill"]},
+      {"title": "What Tax You Actually Owe", "bullets": ["15.3% self-employment tax (Social Security + Medicare)", "Plus your regular income tax bracket", "Side hustle income stacks on top of your W-2 income", "Total effective rate: 25-40% without deductions"]},
+      {"title": "Deductions That Apply to Side Hustles", "bullets": ["Supplies, tools, and materials", "Marketing and advertising costs", "Transaction fees (PayPal, Stripe, platform fees)", "Portion of phone and internet used for business"]},
+      {"title": "Vehicle and Travel Deductions", "bullets": ["Standard mileage rate: 70 cents per mile (2026)", "Or track actual expenses (gas, insurance, repairs)", "Delivery drivers: this is usually your biggest deduction", "Keep a mileage log or use an app"]},
+      {"title": "When to File Quarterly Estimates", "bullets": ["Due: April 15, June 15, Sept 15, Jan 15", "Pay if you'll owe $1,000+ for the year", "Use IRS Form 1040-ES to calculate", "Underpayment penalty is basically interest"]},
+      {"title": "Separate Your Finances", "bullets": ["Open a dedicated business checking account", "Get a business credit card for expenses", "Makes tax time 10x easier", "Strengthens your deduction claims if audited"]},
+      {"title": "When Your Side Hustle Becomes a Business", "bullets": ["Consistent profit for 3 of 5 years = business", "Hobby classification limits your deductions", "Form an LLC for liability protection", "Consider S-Corp when profit exceeds $50K"]},
+      {"title": "Action Items for This Week", "bullets": ["Open a separate bank account today", "Download a mileage tracking app", "Calculate your estimated quarterly payment", "Save 30% of every side hustle dollar"]}
+    ]
+  },
+  {
+    "id": "tax_quarterly",
+    "title": "Quarterly Estimated Taxes: The Simple System to Never Get Penalized",
+    "description": "Quarterly taxes confuse everyone. Here's a dead-simple system to calculate, pay, and never worry about penalties again.\n\n#QuarterlyTaxes #EstimatedTaxes #SelfEmployed #TaxPlanning",
+    "tags": ["quarterly taxes", "estimated taxes", "self-employed", "tax planning", "IRS"],
+    "slides": [
+      {"title": "Quarterly Taxes Made Simple", "bullets": ["Required if you'll owe $1,000+ for the year", "4 deadlines throughout the year", "Miss them and you pay penalties", "This system takes 15 minutes per quarter"]},
+      {"title": "Who Needs to Pay Quarterly", "bullets": ["Freelancers and self-employed individuals", "Side hustlers earning $5K+ per year", "Investors with significant capital gains", "Anyone without enough W-2 withholding"]},
+      {"title": "The 4 Deadlines You Cannot Miss", "bullets": ["Q1 (Jan-Mar): Due April 15", "Q2 (Apr-May): Due June 15", "Q3 (Jun-Aug): Due September 15", "Q4 (Sep-Dec): Due January 15 of next year"]},
+      {"title": "Method 1: The Safe Harbor Rule", "bullets": ["Pay 100% of LAST year's total tax liability", "110% if your AGI was over $150K", "Guarantees no underpayment penalty", "Simplest method if income fluctuates"]},
+      {"title": "Method 2: Current Year Estimate", "bullets": ["Estimate this year's total income", "Calculate expected tax owed", "Divide by 4 and pay each quarter", "More accurate but requires forecasting"]},
+      {"title": "How to Actually Pay", "bullets": ["IRS Direct Pay (free, instant)", "EFTPS.gov for scheduled payments", "IRS2Go mobile app", "Mail a check with Form 1040-ES voucher"]},
+      {"title": "The Set-It-and-Forget-It System", "bullets": ["Calculate your quarterly amount once", "Set up auto-transfers to a tax savings account", "Schedule payments on EFTPS for all 4 dates", "Adjust in Q3 if income changes significantly"]},
+      {"title": "Avoid These Common Mistakes", "bullets": ["Don't skip Q1 thinking you'll catch up later", "Don't forget state quarterly estimates too", "Don't commingle tax savings with spending money", "Review mid-year and adjust if income spikes"]}
+    ]
+  },
+  {
+    "id": "tax_home_office",
+    "title": "Home Office Tax Deduction: How to Claim It Without Getting Audited",
+    "description": "The home office deduction can save you thousands, but most people either skip it or do it wrong. Here's how to claim it properly.\n\n#HomeOffice #TaxDeduction #WorkFromHome #SelfEmployed",
+    "tags": ["home office", "tax deduction", "work from home", "self-employed", "IRS"],
+    "slides": [
+      {"title": "The Home Office Deduction Explained", "bullets": ["Save $1,500-$5,000+ per year", "Available to self-employed and freelancers", "W-2 employees do NOT qualify (since 2018)", "Two methods to calculate it"]},
+      {"title": "The Key Requirement: Exclusive Use", "bullets": ["Space must be used ONLY for business", "A desk in your bedroom counts if dedicated", "Guest room that doubles as office does NOT count", "Take photos as documentation"]},
+      {"title": "Method 1: Simplified Method", "bullets": ["$5 per square foot of office space", "Maximum 300 sq ft = $1,500 deduction", "No receipts or calculations needed", "Best if your office is small"]},
+      {"title": "Method 2: Regular Method (Higher Savings)", "bullets": ["Calculate percentage of home used for business", "200 sq ft office in 2,000 sq ft home = 10%", "Deduct 10% of rent, utilities, insurance, repairs", "Mortgage interest and property tax count too"]},
+      {"title": "Expenses You Can Deduct", "bullets": ["Rent or mortgage interest (business %)", "Utilities: electric, gas, water, internet", "Homeowners or renters insurance", "Repairs and maintenance (business % or 100% if office only)"]},
+      {"title": "Direct vs Indirect Expenses", "bullets": ["Direct: only benefits office (new office paint) = 100%", "Indirect: benefits whole home (new roof) = business %", "Unrelated: kitchen remodel = $0 deduction", "Track and categorize each expense"]},
+      {"title": "Audit-Proofing Your Deduction", "bullets": ["Measure your office space precisely", "Take dated photos of the dedicated space", "Keep all utility bills and receipts", "Use consistent calculation method year to year"]},
+      {"title": "How to Claim It", "bullets": ["File Form 8829 with your Schedule C", "Or use simplified method on Schedule C line 30", "Include in your quarterly estimate calculations", "Consider both methods and pick the higher deduction"]}
+    ]
+  },
+  {
+    "id": "tax_retirement",
+    "title": "Tax-Free Retirement: The Accounts That Save You the Most Money",
+    "description": "The right retirement accounts can save you hundreds of thousands in taxes over your lifetime. Here's which ones to prioritize.\n\n#RetirementAccounts #TaxFree #401k #RothIRA #FinancialFreedom",
+    "tags": ["retirement", "tax-free", "401k", "Roth IRA", "financial planning"],
+    "slides": [
+      {"title": "Retirement Accounts Are Tax Cheat Codes", "bullets": ["Legal ways to reduce or eliminate taxes on growth", "The right order of accounts matters hugely", "Starting early creates massive compounding", "A $500K difference over a career is common"]},
+      {"title": "Pre-Tax Accounts: 401(k) and Traditional IRA", "bullets": ["Contributions reduce your taxable income NOW", "401(k): up to $23,500 per year (2026)", "Traditional IRA: up to $7,000 per year", "You pay taxes later when you withdraw in retirement"]},
+      {"title": "Post-Tax Accounts: Roth IRA and Roth 401(k)", "bullets": ["No deduction now, but withdrawals are 100% tax-free", "Roth IRA: $7,000/year (income limits apply)", "Roth 401(k): $23,500/year (no income limits)", "Best if you expect higher taxes in retirement"]},
+      {"title": "The HSA: The Triple-Tax Advantage", "bullets": ["Tax deduction on contributions", "Tax-free growth on investments", "Tax-free withdrawals for qualified expenses", "After 65, use for anything (taxed like traditional IRA)"]},
+      {"title": "Self-Employed Superpower Accounts", "bullets": ["SEP-IRA: up to 25% of net self-employment income", "Solo 401(k): $23,500 employee + 25% employer", "Can contribute up to $69,000 total per year", "Massive tax reduction for high-earning freelancers"]},
+      {"title": "The Optimal Contribution Order", "bullets": ["Step 1: Get full employer 401(k) match (free money)", "Step 2: Max out HSA", "Step 3: Max out Roth IRA", "Step 4: Max out remaining 401(k) space"]},
+      {"title": "Backdoor Roth: For High Earners", "bullets": ["Income too high for direct Roth IRA contribution", "Contribute to Traditional IRA (non-deductible)", "Convert immediately to Roth IRA", "Legal strategy blessed by IRS — consult your CPA"]},
+      {"title": "Start Maximizing Today", "bullets": ["Check if you're getting your full employer match", "Open a Roth IRA if you don't have one", "Increase your contribution by 1% this month", "Run a retirement tax projection with your CPA"]}
+    ]
+  },
+  {
+    "id": "tax_year_end",
+    "title": "Year-End Tax Moves: 8 Strategies to Slash Your Tax Bill Before December 31",
+    "description": "The last few weeks of the year are your final chance to reduce your tax bill. These 8 moves can save you thousands.\n\n#YearEndTax #TaxPlanning #TaxSavings #FinancialPlanning",
+    "tags": ["year-end tax", "tax planning", "tax savings", "December", "financial planning"],
+    "slides": [
+      {"title": "Last Chance to Cut Your Tax Bill", "bullets": ["Most tax moves must happen before Dec 31", "A few hours of planning saves thousands", "These strategies work for almost everyone", "Review and act before the deadline"]},
+      {"title": "Strategy 1: Max Out Retirement Contributions", "bullets": ["Check your 401(k) YTD contributions", "Increase percentage for remaining paychecks", "Traditional IRA reduces taxable income", "You have until April 15 for IRA (but 401k is Dec 31)"]},
+      {"title": "Strategy 2: Tax-Loss Harvesting", "bullets": ["Sell losing investments to offset gains", "Net losses offset up to $3,000 of regular income", "Unused losses carry forward forever", "Avoid wash sale rule: wait 31 days to rebuy"]},
+      {"title": "Strategy 3: Bunch Charitable Donations", "bullets": ["Combine two years of giving into one year", "Push over the standard deduction threshold", "Donor-advised fund makes this easy", "Donate appreciated stock to avoid capital gains"]},
+      {"title": "Strategy 4: Defer Income If Possible", "bullets": ["Delay invoicing freelance clients until January", "Defer bonuses to next tax year if allowed", "Useful if you expect lower income next year", "Caution: don't defer if tax rates are rising"]},
+      {"title": "Strategy 5: Accelerate Deductions", "bullets": ["Prepay January mortgage by Dec 31", "Pay Q4 state estimated taxes before year end", "Stock up on deductible business supplies", "Schedule and pay for deductible services"]},
+      {"title": "Strategy 6: Use Your FSA Before It Expires", "bullets": ["Most FSA funds expire December 31", "Some plans offer a March 15 grace period", "Buy eligible items: glasses, contacts, supplies", "Check your balance now to avoid losing money"]},
+      {"title": "Strategy 7: Review Your Withholding", "bullets": ["Run a tax projection with current numbers", "Adjust W-4 if you'll owe a large amount", "Increase withholding on final paychecks", "Avoid the underpayment penalty"]},
+      {"title": "Your Year-End Checklist", "bullets": ["Run a tax projection this week", "Identify which strategies apply to you", "Take action before December 31", "Schedule a CPA review in early January"]}
+    ]
+  }
+]

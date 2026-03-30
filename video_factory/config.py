@@ -71,6 +71,8 @@ PRODUCTION_LOG = LOGS_DIR / "production_log.json"
 VOICES = {
     "narrator": "en-US-GuyNeural",
     "narrator_female": "en-US-JennyNeural",
+    "narrator_calm": "en-GB-SoniaNeural",     # Sleep stories, journaling
+    "narrator_warm": "en-US-AriaNeural",       # Affirmations
     # Global Council characters
     "mia": "en-US-JennyNeural",
     "sora": "en-US-AriaNeural",
@@ -83,9 +85,28 @@ VOICES = {
 # Series schedule config
 # ---------------------------------------------------------------------------
 SCHEDULE = {
-    "frequency": {"days_interval": 2, "time": "02:00"},
-    "explainer": {"weekdays": ["tuesday", "friday"], "time": "03:00"},
-    "shorts": {"days_interval": 1, "time": "04:00"},
+    # Original 3
+    "frequency":       {"days_interval": 2, "time": "02:00"},
+    "explainer":       {"weekdays": ["tuesday", "friday"], "time": "03:00"},
+    "shorts":          {"days_interval": 1, "time": "04:00"},
+    # Tier 1: High-CPM Ambient
+    "binaural":        {"days_interval": 3, "time": "01:00"},
+    "sleep_sounds":    {"days_interval": 3, "time": "00:00"},
+    "chakra":          {"weekdays": ["saturday"], "time": "01:00"},
+    "sleep_stories":   {"days_interval": 4, "time": "22:00"},
+    # Tier 2: Explainer
+    "career":          {"weekdays": ["wednesday"], "time": "03:00"},
+    "tax":             {"weekdays": ["monday"], "time": "03:00"},
+    "productivity":    {"weekdays": ["thursday"], "time": "03:00"},
+    "side_hustle":     {"weekdays": ["saturday"], "time": "03:00"},
+    "personal_growth": {"weekdays": ["sunday"], "time": "05:00"},
+    # Tier 3: Shorts + Specialty
+    "tool_tips":       {"days_interval": 1, "time": "05:00"},
+    "council_career":  {"days_interval": 2, "time": "04:30"},
+    "council_money":   {"days_interval": 2, "time": "04:30"},
+    "affirmations":    {"days_interval": 3, "time": "06:00"},
+    "anchor_journal":  {"weekdays": ["wednesday", "sunday"], "time": "06:00"},
+    "weekly_recap":    {"weekdays": ["sunday"], "time": "10:00"},
 }
 
 # ---------------------------------------------------------------------------
