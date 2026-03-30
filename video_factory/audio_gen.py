@@ -16,7 +16,7 @@ from pydub import AudioSegment
 
 # ── Configuration ──────────────────────────────────────────────────────────
 SAMPLE_RATE = 44100
-DURATION = 40  # seconds
+DURATION = 48  # seconds (40s video + 8s freeze-frame extension)
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output", "akira")
 
 VOICEOVER_TEXT = (
@@ -54,10 +54,10 @@ async def generate_voiceover(output_path):
     # Try edge-tts (best quality, requires internet)
     try:
         communicate = edge_tts.Communicate(
-            VOICEOVER_TEXT, voice="en-US-AnaNeural", rate="-15%"
+            VOICEOVER_TEXT, voice="en-US-GuyNeural", rate="-20%"
         )
         await communicate.save(output_path)
-        print(f"  ✓ Voiceover saved (edge-tts): {output_path}")
+        print(f"  ✓ Voiceover saved (edge-tts, GuyNeural): {output_path}")
         return
     except Exception as e:
         print(f"  ⚠ edge-tts failed ({e.__class__.__name__}), falling back to espeak-ng...")
@@ -70,9 +70,9 @@ async def generate_voiceover(output_path):
     if not espeak_bin:
         raise RuntimeError("No TTS engine available (edge-tts needs internet, espeak-ng not installed)")
 
-    # Use female voice (en+f3), slow speed (130 wpm), with pitch 40 for gravitas
+    # Deep mature male voice: en+m3, slow speed (115 wpm), low pitch (25)
     subprocess.run([
-        espeak_bin, "-v", "en+f3", "-s", "130", "-p", "40",
+        espeak_bin, "-v", "en+m3", "-s", "115", "-p", "25",
         "-w", wav_tmp, VOICEOVER_TEXT
     ], check=True)
 
@@ -179,7 +179,87 @@ def mix_all(voiceover_path, music_path, ambient_path, output_path):
     print(f"  ✓ Mixed audio saved: {output_path}")
 
 
-# ── 5. Video Mux ──────────────────────────────────────────────────────────
+# ── 5. Freeze-Frame Video Extension ────────────────────────────────────────
+def extend_video_freeze(video_path, output_path, extra_seconds=8):
+    """Extend video by freezing its last frame for extra_seconds."""
+    import subprocess
+    import shutil
+    import tempfile
+
+    if not os.path.isfile(video_path):
+        print(f"\n[SKIP] Freeze-frame extension — source video not found: {video_path}")
+        return False
+
+    ffmpeg_bin = shutil.which("ffmpeg")
+    ffprobe_bin = shutil.which("ffprobe")
+    if not ffmpeg_bin or not ffprobe_bin:
+        print("[ERROR] ffmpeg/ffprobe not found.")
+        return False
+
+    print(f"[5/6] Extending video with {extra_seconds}s freeze frame...")
+    tmpdir = tempfile.mkdtemp(prefix="akira_freeze_")
+
+    try:
+        # Get source video fps
+        result = subprocess.run(
+            [ffprobe_bin, "-v", "error", "-select_streams", "v:0",
+             "-show_entries", "stream=r_frame_rate", "-of", "csv=p=0",
+             video_path],
+            capture_output=True, text=True, check=True
+        )
+        fps_str = result.stdout.strip()  # e.g. "30/1" or "24000/1001"
+        if "/" in fps_str:
+            num, den = fps_str.split("/")
+            fps = float(num) / float(den)
+        else:
+            fps = float(fps_str)
+
+        last_frame = os.path.join(tmpdir, "last_frame.png")
+        freeze_clip = os.path.join(tmpdir, "freeze.mp4")
+        concat_list = os.path.join(tmpdir, "concat.txt")
+
+        # 1. Extract last frame
+        subprocess.run([
+            ffmpeg_bin, "-y", "-sseof", "-0.1", "-i", video_path,
+            "-frames:v", "1", "-q:v", "2", last_frame
+        ], check=True, capture_output=True)
+
+        # 2. Create freeze clip from last frame (match fps, no audio)
+        subprocess.run([
+            ffmpeg_bin, "-y", "-loop", "1", "-i", last_frame,
+            "-c:v", "libx264", "-t", str(extra_seconds),
+            "-pix_fmt", "yuv420p", "-r", str(fps),
+            "-an", freeze_clip
+        ], check=True, capture_output=True)
+
+        # 3. Create concat list and join
+        # First, strip audio from original to avoid concat issues
+        orig_noaudio = os.path.join(tmpdir, "orig_noaudio.mp4")
+        subprocess.run([
+            ffmpeg_bin, "-y", "-i", video_path,
+            "-c:v", "copy", "-an", orig_noaudio
+        ], check=True, capture_output=True)
+
+        with open(concat_list, "w") as f:
+            f.write(f"file '{orig_noaudio}'\n")
+            f.write(f"file '{freeze_clip}'\n")
+
+        subprocess.run([
+            ffmpeg_bin, "-y", "-f", "concat", "-safe", "0",
+            "-i", concat_list, "-c:v", "libx264", "-pix_fmt", "yuv420p",
+            output_path
+        ], check=True, capture_output=True)
+
+        print(f"  ✓ Extended video saved: {output_path}")
+        return True
+
+    finally:
+        # Cleanup temp files
+        import shutil as sh
+        sh.rmtree(tmpdir, ignore_errors=True)
+
+
+# ── 6. Video Mux ──────────────────────────────────────────────────────────
 def mux_video(video_path, audio_path, output_path):
     """Strip existing audio from video and replace with mixed audio."""
     import subprocess
@@ -221,11 +301,11 @@ async def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    vo_path = os.path.join(OUTPUT_DIR, "ep01_voiceover.mp3")
+    vo_path = os.path.join(OUTPUT_DIR, "ep01_voice_deep.mp3")
     ambient_path = os.path.join(OUTPUT_DIR, "ep01_ambient.mp3")
     music_path = os.path.join(OUTPUT_DIR, "ep01_music.mp3")
-    mixed_path = os.path.join(OUTPUT_DIR, "ep01_mixed_audio.mp3")
-    video_out = os.path.join(OUTPUT_DIR, "akira_ep01_WATCH_THIS.mp4")
+    mixed_path = os.path.join(OUTPUT_DIR, "ep01_mixed_audio_v2.mp3")
+    video_out = os.path.join(OUTPUT_DIR, "akira_ep01_the_node_FINAL_v2.mp4")
 
     # Accept source video path as CLI argument, or use default
     default_video = os.path.join(OUTPUT_DIR, "akira_ep01_video.mp4")
@@ -237,12 +317,17 @@ async def main():
     generate_music(music_path)
     mix_all(vo_path, music_path, ambient_path, mixed_path)
 
-    # Mux video + audio
-    mux_video(video_src, mixed_path, video_out)
+    # Extend video with freeze frame, then mux
+    extended_video = os.path.join(OUTPUT_DIR, "akira_ep01_extended.mp4")
+    if os.path.isfile(video_src):
+        extend_video_freeze(video_src, extended_video, extra_seconds=8)
+        mux_video(extended_video, mixed_path, video_out)
+    else:
+        mux_video(video_src, mixed_path, video_out)
 
     # Report
     print("\n" + "=" * 60)
-    print("AKIRA EP01 AUDIO PIPELINE — COMPLETE")
+    print("AKIRA EP01 AUDIO PIPELINE v2 — COMPLETE")
     print("=" * 60)
     for label, path in [
         ("Voiceover", vo_path),
@@ -255,7 +340,6 @@ async def main():
               f"duration={seg.duration_seconds:.1f}s")
 
     if os.path.isfile(video_out):
-        # Get video duration via ffprobe
         import subprocess
         result = subprocess.run(
             ["ffprobe", "-v", "error", "-show_entries",
@@ -267,11 +351,18 @@ async def main():
         print(f"  {'FINAL VIDEO':12s} → {os.path.basename(video_out):30s} "
               f"duration={dur:.1f}s  size={size_mb:.1f}MB")
     else:
-        print(f"\n  To produce the final video on Windows, run:")
-        print(f'  ffmpeg -y -i "C:\\Users\\acase\\Downloads\\akira_ep01_the_node_FINAL.mp4" ^')
-        print(f'    -i ep01_mixed_audio.mp3 ^')
+        print(f"\n  To produce the final v2 video on Windows, run these steps:")
+        print(f"")
+        print(f"  Step 1 — Freeze last frame (+8s):")
+        print(f'  ffmpeg -sseof -0.1 -i "C:\\Users\\acase\\Downloads\\akira_ep01_the_node_FINAL.mp4" -frames:v 1 -q:v 2 last_frame.png')
+        print(f'  ffmpeg -loop 1 -i last_frame.png -c:v libx264 -t 8 -pix_fmt yuv420p -r 30 freeze.mp4')
+        print(f'  (echo file akira_ep01_the_node_FINAL.mp4 & echo file freeze.mp4) > concat.txt')
+        print(f'  ffmpeg -f concat -safe 0 -i concat.txt -c:v libx264 akira_ep01_extended.mp4')
+        print(f"")
+        print(f"  Step 2 — Mux with new audio mix:")
+        print(f'  ffmpeg -y -i akira_ep01_extended.mp4 -i ep01_mixed_audio_v2.mp3 ^')
         print(f'    -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest ^')
-        print(f'    akira_ep01_WATCH_THIS.mp4')
+        print(f'    akira_ep01_the_node_FINAL_v2.mp4')
 
 
 if __name__ == "__main__":
